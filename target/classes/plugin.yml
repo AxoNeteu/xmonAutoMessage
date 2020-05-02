@@ -1,0 +1,5 @@
+main: cf.xmon.automessage.Main
+name: 'xmonAutoMessage'
+author: 'Xmon'
+version: '1.0'
+website: 'https://Xmon.cf'

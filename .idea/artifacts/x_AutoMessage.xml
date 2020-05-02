@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="x-AutoMessage">
+    <output-path>$USER_HOME$/Desktop</output-path>
+    <root id="archive" name="x-AutoMessage.jar">
+      <element id="module-output" name="automessage" />
+    </root>
+  </artifact>
+</component>

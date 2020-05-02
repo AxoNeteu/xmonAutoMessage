@@ -1,0 +1,38 @@
+czas: 1200
+czas2: 2600
+list:
+  - '&eSprawdź co się dzieje na serwerze na oficjalnej stronie -> &bKWADRATOWA.TK'
+  - 'Nowa wiadomosc #2'
+  - 'twoja matka surykatka'
+# https://Xmon.cf/uploads/colp98
+colorlist:
+  - 'YELLOW'
+  - 'BLUE'
+  - 'GREEN'
+  - 'GREEN'
+  - 'GREEN'
+  - 'GREEN'
+  - 'GREEN'
+  - 'GREEN'
+  - 'GREEN'
+#https://Xmon.cf/uploads/inw3e6
+barstyle:
+  - 'SOLID'
+  - 'SOLID'
+  - 'SOLID'
+  - 'SOLID'
+  - 'SOLID'
+  - 'SOLID'
+  - 'SOLID'
+  - 'SOLID'
+  - 'SOLID'
+#https://Xmon.cf/uploads/nbtrxf
+barflag:
+  - 'PLAY_BOSS_MUSIC'
+  - 'PLAY_BOSS_MUSIC'
+  - 'PLAY_BOSS_MUSIC'
+  - 'PLAY_BOSS_MUSIC'
+  - 'PLAY_BOSS_MUSIC'
+  - 'PLAY_BOSS_MUSIC'
+  - 'PLAY_BOSS_MUSIC'
+  - 'PLAY_BOSS_MUSIC'
