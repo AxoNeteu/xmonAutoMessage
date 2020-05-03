@@ -56,9 +56,5 @@ public class Main extends JavaPlugin {
     @Override
     public void onDisable() {
         this.getLogger().info("Author Xmon");
-        while (Bukkit.getBossBars().hasNext()){
-            BossBar bb = Bukkit.getBossBars().next();
-            bb.removeAll();
-        }
     }
 }
