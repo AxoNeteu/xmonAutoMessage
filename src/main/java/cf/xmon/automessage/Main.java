@@ -18,22 +18,22 @@ public class Main extends JavaPlugin {
     public void onEnable() {
         this.saveDefaultConfig();
         this.getLogger().info("Author Xmon");
+        /*
         Bukkit.getScheduler().runTaskTimerAsynchronously(this, () ->{
             if (Bukkit.getOnlinePlayers().size() >= 1) {
                 Bukkit.broadcastMessage(ChatColor.translateAlternateColorCodes('&', "&6[GLaDOS] &aSerwer sponsorowany jest przez hosting &2OctopusVPS.pl&a. Sprawdź ich ofertę!"));
             }
         }, this.getConfig().getInt("czas2"), this.getConfig().getInt("czas2"));
+         */
         Bukkit.getScheduler().runTaskTimerAsynchronously(this, () ->{
             if (Bukkit.getOnlinePlayers().size() >= 1) {
                 NamespacedKey nk = NamespacedKey.randomKey();
                 Bukkit.createBossBar(nk , ChatColor.translateAlternateColorCodes('&', this.getConfig().getStringList("list").get(numerek)), BarColor.valueOf(this.getConfig().getStringList("colorlist").get(numerek)), BarStyle.valueOf(this.getConfig().getStringList("barstyle").get(numerek)), BarFlag.valueOf(this.getConfig().getStringList("barflag").get(numerek))).setProgress(0.00D);
-                Bukkit.getOnlinePlayers().forEach(player ->{
-                    Objects.requireNonNull(Bukkit.getBossBar(nk)).addPlayer(player);
-                });
+                Bukkit.getOnlinePlayers().forEach(player -> Objects.requireNonNull(Bukkit.getBossBar(nk)).addPlayer(player));
                 for(int i=0; i<50; i++){
                     Objects.requireNonNull(Bukkit.getBossBar(nk)).setProgress(Objects.requireNonNull(Bukkit.getBossBar(nk)).getProgress() + 0.019D);
                     try {
-                        Thread.sleep(120);
+                        Thread.sleep(150);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
