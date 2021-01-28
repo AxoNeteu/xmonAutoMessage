@@ -5,9 +5,33 @@
       <artifact name="x-AutoMessage" />
     </artifacts-to-build>
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8351967c-2942-45a9-b4c0-9c8e7ab7f976" name="Default Changelist" comment="">
+    <list default="true" id="8351967c-2942-45a9-b4c0-9c8e7ab7f976" name="Default Changelist" comment="remove chat automessage">
+      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cf/xmon/automessage/utils/ChatUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cf/xmon/automessage/utils/DefaultFontInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cf/xmon/automessage/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cf/xmon/automessage/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/cf/xmon/automessage/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cf/xmon/automessage/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,17 +49,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1T6gB3r4misq11BMEBopIhLCq8Q" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -47,13 +63,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\Xmon\AppData\Roaming\Subversion</configuration>
@@ -73,6 +91,8 @@
       <workItem from="1588107846640" duration="87000" />
       <workItem from="1588512162756" duration="118000" />
       <workItem from="1588589951500" duration="29000" />
+      <workItem from="1596448945100" duration="210000" />
+      <workItem from="1611826961936" duration="684000" />
     </task>
     <task id="LOCAL-00001" summary="fix propably">
       <created>1588512226407</created>
@@ -81,22 +101,42 @@
       <option name="project" value="LOCAL" />
       <updated>1588512226407</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="remove chat automessage">
+      <created>1596449058617</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596449058617</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix" />
     <MESSAGE value="fix propably" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix propably" />
+    <MESSAGE value="remove chat automessage" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove chat automessage" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="213" key="#Project_Structure" timestamp="1588104743993">
+    <state x="552" y="213" key="#Project_Structure" timestamp="1596449088335">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="552" y="213" key="#Project_Structure/0.30.1920.1050@0.30.1920.1050" timestamp="1588104743993" />
+    <state x="552" y="213" key="#Project_Structure/0.30.1920.1050@0.30.1920.1050" timestamp="1596449088335" />
     <state x="808" y="444" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1588104721217">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -105,10 +145,10 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="585" y="150" key="CommitChangelistDialog2/0.30.1920.1050@0.30.1920.1050" timestamp="1588512224474" />
-    <state x="552" y="288" key="Vcs.Push.Dialog.v2" timestamp="1588512229973">
+    <state x="552" y="288" key="Vcs.Push.Dialog.v2" timestamp="1596449063240">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="552" y="288" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1588512229973" />
+    <state x="552" y="288" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1596449063240" />
     <state x="342" y="250" key="new project wizard" timestamp="1588589978577">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>

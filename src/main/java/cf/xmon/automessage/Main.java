@@ -1,5 +1,6 @@
 package cf.xmon.automessage;
 
+import cf.xmon.automessage.utils.ChatUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.NamespacedKey;
@@ -9,22 +10,31 @@ import org.bukkit.boss.BarStyle;
 import org.bukkit.boss.BossBar;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import java.util.List;
 import java.util.Objects;
 import java.util.concurrent.TimeUnit;
 
 public class Main extends JavaPlugin {
     private Integer numerek = 0;
+    private Integer numerek_wiado = 0;
     @Override
     public void onEnable() {
         this.saveDefaultConfig();
         this.getLogger().info("Author Xmon");
-        /*
         Bukkit.getScheduler().runTaskTimerAsynchronously(this, () ->{
             if (Bukkit.getOnlinePlayers().size() >= 1) {
-                Bukkit.broadcastMessage(ChatColor.translateAlternateColorCodes('&', "&6[GLaDOS] &aSerwer sponsorowany jest przez hosting &2OctopusVPS.pl&a. Sprawdź ich ofertę!"));
+                Bukkit.getOnlinePlayers().forEach(x -> {
+                     List<String> lista = (List<String>) this.getConfig().getList("chatlist").get(numerek_wiado);
+                     lista.forEach(y ->{
+                         ChatUtils.sendCenteredMessage(x, ChatColor.translateAlternateColorCodes('&', y));
+                     });
+                });
+                numerek_wiado++;
+                if (numerek_wiado == this.getConfig().getStringList("chatlist").size()){
+                    numerek_wiado = 0;
+                }
             }
         }, this.getConfig().getInt("czas2"), this.getConfig().getInt("czas2"));
-         */
         Bukkit.getScheduler().runTaskTimerAsynchronously(this, () ->{
             if (Bukkit.getOnlinePlayers().size() >= 1) {
                 NamespacedKey nk = NamespacedKey.randomKey();

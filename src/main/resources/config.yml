@@ -1,5 +1,9 @@
 czas: 1200
 czas2: 2600
+chatlist:
+  - ["-=-=-=-=-=-=- Title -=-=-=-=-=-=-" ,"1 wiado 1 podpunkt", "1 wiado 2 podpunkt", "-=-=-=-=-=-=- Title -=-=-=-=-=-=-"]
+  - ["-=-=-=-=-=-=- Title -=-=-=-=-=-=-" ,"2 wiado 1 podpunkt", "2 wiado 2 podpunkt", "-=-=-=-=-=-=- Title -=-=-=-=-=-=-"]
+  - ["-=-=-=-=-=-=- Title -=-=-=-=-=-=-" ,"3 wiado 1 podpunkt", "3 wiado 2 podpunkt", "-=-=-=-=-=-=- Title -=-=-=-=-=-=-"]
 list:
   - '&eSprawdź co się dzieje na serwerze na oficjalnej stronie -> &bKWADRATOWA.TK'
   - 'Nowa wiadomosc #2'
